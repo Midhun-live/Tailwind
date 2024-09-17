@@ -8,9 +8,9 @@ This project is a static website built using HTML and CSS, with Tailwind CSS use
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
 - [Development](#development)
 - [Deployment](#deployment)
+- [Screenshot](#screenshot)
 - [Contact](#contact)
 
 ## Features
@@ -105,9 +105,13 @@ Deploy to Vercel:
 
    - Once deployed, Vercel will provide you with a live URL where you can view your application. You can find this URL in the Vercel dashboard under your project.
 
+## Screenshot
+
+<img width="1440" alt="Screenshot 2024-09-17 at 3 13 32 PM" src="https://github.com/user-attachments/assets/00527fc6-1aca-4357-beab-3c23e1c25ee7">
+
 ## Contact
 
 - **Email**: midhunchakkaravarthy07@gmail.com
 - **GitHub**: Midhun-live
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/midhun-chakkaravarthy/)
-- **Website**: [Midhun-live](https://midhun-live.netlify.app/)
+- **Website**: [Midhun-live](https://olympic2024.vercel.app/)
