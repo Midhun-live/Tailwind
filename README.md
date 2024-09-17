@@ -114,4 +114,4 @@ Deploy to Vercel:
 - **Email**: midhunchakkaravarthy07@gmail.com
 - **GitHub**: Midhun-live
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/midhun-chakkaravarthy/)
-- **Website**: [Midhun-live](https://olympic2024.vercel.app/)
+- **Website**: [Olypic Medal Table](https://olympic2024.vercel.app/)
