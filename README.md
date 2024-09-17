@@ -33,12 +33,12 @@ To get started with this project, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/your-repository.git
+   git clone https://github.com/yourusername/tailwind.git
 
 2. **Navigate to the project directory:**
 
    ```bash
-   cd your-repository
+   cd tailwind
 
 3. **Install Tailwind CSS as a development dependency:**
 
@@ -53,6 +53,7 @@ To get started with this project, follow these steps:
   
 5. **Set Up Your CSS File:**
   Create a src/styles.css file and add the following content to import Tailwind’s base, components, and utilities:
+
    ```bash
    @tailwind base;
    @tailwind components;
