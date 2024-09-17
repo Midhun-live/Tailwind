@@ -33,7 +33,7 @@ To get started with this project, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/tailwind.git
+   [git clone https://github.com/Midhun-live/Tailwind.git
 
 2. **Navigate to the project directory:**
 
@@ -58,3 +58,28 @@ To get started with this project, follow these steps:
    @tailwind base;
    @tailwind components;
    @tailwind utilities;
+
+6. **Build your CSS**:
+   Build the Tailwind CSS file and output it to public/styles.css:
+
+   ```bash
+   npx tailwindcss build src/styles.css -o public/styles.css
+
+## Usage
+
+- **Development**: Use the commands above to build your Tailwind CSS file. Include the output CSS file (public/styles.css) in your HTML file(s).
+- **HTML**: Reference the built CSS file in your HTML:
+
+  ```bash
+  <link href="public/styles.css" rel="stylesheet">
+
+- **Adding Tailwind Classes**: Utilize Tailwind CSS utility classes directly in your HTML to style your elements.
+
+## Development
+
+- To rebuild your CSS whenever changes are made, you can run the Tailwind CSS build command:
+
+  ```bash
+  npx tailwindcss build src/styles.css -o public/styles.css
+
+For a more streamlined development process, you might consider using a build tool like PostCSS to automatically process Tailwind CSS.
