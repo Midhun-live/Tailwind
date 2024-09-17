@@ -10,8 +10,7 @@ This project is a static website built using HTML and CSS, with Tailwind CSS use
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Development](#development)
-- [Contributing](#contributing)
-- [License](#license)
+- [Deployment](#deployment)
 - [Contact](#contact)
 
 ## Features
@@ -83,3 +82,32 @@ To get started with this project, follow these steps:
   npx tailwindcss build src/styles.css -o public/styles.css
 
 For a more streamlined development process, you might consider using a build tool like PostCSS to automatically process Tailwind CSS.
+
+## Deployment
+Deploy to Vercel:
+
+
+- **Push Your Code to GitHub**:
+   - Ensure your code is pushed to a GitHub repository.
+  
+      ```bash
+      git add .
+      git commit -m "Prepare project for deployment"
+      git push origin main
+      
+- **Deploy to Vercel**:
+   - Go to Vercel and sign in or create an account.
+   - Click on "New Project" and import your GitHub repository.
+   - Vercel will automatically detect that it’s a React project and set up the build settings.
+
+   - During the setup, you’ll need to add environment variables:
+
+      - **REACT_APP_SUPABASE_URL**: Your Supabase URL
+      - **REACT_APP_SUPABASE_ANON_KEY**: Your Supabase anonymous key
+   - Click "Deploy" and wait for Vercel to build and deploy your project.
+
+- **View Your Live Site**:
+
+   - Once deployed, Vercel will provide you with a live URL where you can view your application. You can find this URL in the Vercel dashboard under your project.
+
+
